@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "spring2026-Project1-jroy4/1.0.0": {
+        "runtime": {
+          "spring2026-Project1-jroy4.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "spring2026-Project1-jroy4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
