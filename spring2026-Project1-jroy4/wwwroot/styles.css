@@ -1,0 +1,110 @@
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#Title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #f5c518;
+}
+
+#CoverArt {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#Rating {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #f5c518;
+}
+
+#Trailer {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+a {
+    color: #f5c518;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#Summary {
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto 20px;
+    padding: 0 20px;
+}
+
+#Actors {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+#Actors li {
+    padding: 5px 0;
+}
+
+h2 {
+    color: #f5c518;
+    margin-top: 30px;
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #f5c518;
+    color: #1a1a1a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.theme-toggle:hover {
+    background-color: #ffdb4d;
+}
+
+.light-mode {
+    background-color: #f5f5f5;
+    color: #1a1a1a;
+}
+
+.light-mode #Title,
+.light-mode h2 {
+    color: #1a1a1a;
+}
+
+.light-mode a {
+    color: #1a1a1a;
+}
